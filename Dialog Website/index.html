@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Add Product Here</h2>
+        <button class="button-86" id="openBtn">Add Product</button>
+    </nav>
+    <main>
+        <dialog class="dialogs" id="myDialog">
+            <div class="dialog-content">
+            <h3>Add items</h3>
+            <label>Name</label>
+            <input type="text" placeholder="Item name" class="input" id="itemName">
+            <br>
+            <label>Price</label>
+            <input type="number" class="input" id="itemPrice">
+            <br>
+            <label>Add Image</label>
+            <input type="file" id="imageInput" accept="image/*" >
+            <br>
+            <img id="preview" alt="Preview" style="max-width: 200px; display: none;">
+            </div>
+            <div class="dialogButton">
+            <button id="dialogButton-cancel">Cancel</button>
+            <button id="dialogButton-submit">Submit</button>
+            </div>
+        </dialog>
+
+        <div class="displayItem" id="displayItem"></div>
+
+
+
+    </main>
+    
+</body>
+<script src="script.js"></script>
+</html>
