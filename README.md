@@ -1,1 +1,1 @@
-This is repositarym about my website development practice project.
+This is repositary about my website development practice project.
